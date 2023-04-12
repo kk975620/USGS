@@ -31,3 +31,5 @@ or
 
 Note: If the scrapper isn't set up then use the below link to download .tif files and place it in the folder along with 'app.py'.
 https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/13/TIFF/current/
+
+Refer to the region to be downloaded or name of the '.tif' file from https://apps.nationalmap.gov/downloader/#/
