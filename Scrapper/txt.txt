@@ -1,1 +1,11 @@
+Web scraping
+Selenium web driver is used for data harvesting in this module. 
+A ChromeDriver executable, which is the same version as Google Chrome being used, is required. 
+The path to the executable should be specified in the wescraping python code. 
+In this project, all the requested images are downloaded by navigating through the webpage in Google Chrome. 
+A list of names of the image files is maintained and can be updated per the user’s request.
+Every time web scraping is performed all the images in the list are downloaded from the web and replace the old image files if any. 
 
+Reference:
+U.S. Geological Survey, "The National Map," 2016. [Online]. 
+Available: https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts%2FElevation%2F13%2FTIFF%2Fcurrent%2F.
