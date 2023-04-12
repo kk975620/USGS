@@ -4,15 +4,15 @@ Rasterio is a powerful Python library used for reading a raster image file. Rast
 
 Follow the below steps for setting up the environment:
 
-conda create -n geoEnv python=3.9
-conda activate geoEnv
-conda install -c conda-forge gdal
-conda install -c conda-forge rasterio
-conda install -c conda-forge georasters
-conda install -c jmcmurray os
-conda install -c conda-forge r-uuid
-conda install -c conda-forge python-markdown-math
-conda install flask
+1.conda create -n geoEnv python=3.9
+2.conda activate geoEnv
+3.conda install -c conda-forge gdal
+4.conda install -c conda-forge rasterio
+5.conda install -c conda-forge georasters
+6.conda install -c jmcmurray os
+7.conda install -c conda-forge r-uuid
+8.conda install -c conda-forge python-markdown-math
+9.conda install flask
 
 Note: If the scrapper isn't set up then use the below link to download .tif files and place it in the folder along with 'app.py'.
 https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/13/TIFF/current/
