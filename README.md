@@ -4,18 +4,28 @@ Rasterio is a powerful Python library used for reading a raster image file. Rast
 
 Follow the below steps for setting up the environment:
 <ul>
-<li>1.conda create -n geoEnv python=3.9</li>
-<li>2.conda activate geoEnv</li>
+<li>conda create -n geoEnv python=3.10.4</li>
+<li>conda activate geoEnv</li>
+<li>conda install -c conda-forge gdal</li>
+<li>conda install -c conda-forge rasterio</li>
+<li>conda install -c conda-forge georasters</li>
+<li>conda install -c jmcmurray os</li>
+<li>conda install -c conda-forge r-uuid</li>
+<li>conda install -c conda-forge python-markdown-math</li>
+<li>conda install flask</li>
 </ul>
 
+or 
 
-3.conda install -c conda-forge gdal
-4.conda install -c conda-forge rasterio
-5.conda install -c conda-forge georasters
-6.conda install -c jmcmurray os
-7.conda install -c conda-forge r-uuid
-8.conda install -c conda-forge python-markdown-math
-9.conda install flask
+<ul>
+<li>conda create -n geoEnv python=3.10.4</li>
+<li>conda install -c conda-forge gdal=3.5.2 rvlib rasterio</li>
+<li>pip install git+https://github.com/ozak/georasters flask</li>
+<li>conda install -c jmcmurray os</li>
+<li>conda install -c conda-forge r-uuid</li>
+<li>conda install -c conda-forge python-markdown-math</li>
+<li>conda install flask</li>
+</ul>
 
 Note: If the scrapper isn't set up then use the below link to download .tif files and place it in the folder along with 'app.py'.
 https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/13/TIFF/current/
