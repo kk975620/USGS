@@ -1,4 +1,6 @@
-# USGS
+# How to use the USGS API for extracting a terrain using latitude and longitude. 
+
+After all the image files are ready for use (download using scrapper or manually from the link mentioned below), the user can make API requests to the server and fetch a terrain region of interest. 
 
 Rasterio is a powerful Python library used for reading a raster image file. Rasterio is dependent on GDAL and georasters library, which use specific Python packages at specific versions. Due to this criterion, anaconda distribution is used for package management and deployment. Georasters work well with python version 3.5 or 3.10. The Python version used for this project is 3.10.4. To setup and use georasters, a virtual environment is created using anaconda command prompt. The order of installation of the python packages are as follows: GDAL, georasters, rasterio, os, uuid, and math.
 
