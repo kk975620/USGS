@@ -1,6 +1,6 @@
 Web scraping
 Selenium web driver is used for data harvesting in this module. 
-A ChromeDriver executable, which is the same version as Google Chrome being used, is required. 
+A ChromeDriver executable, which is the same version as Google Chrome being used, is required. Download from https://chromedriver.chromium.org/downloads . 
 The path to the executable should be specified in the wescraping python code. 
 In this project, all the requested images are downloaded by navigating through the webpage in Google Chrome. 
 A list of names of the image files is maintained and can be updated per the user’s request.
